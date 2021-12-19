@@ -1,0 +1,271 @@
+.main
+{
+
+position : relative;
+top : 100px;
+
+}
+
+.form-box {
+    width: 380px;
+    height: 800px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+}
+
+.info {
+    font-size: 10px;
+    display: block;
+    width: inherit;
+    height: fit-content;
+    border-radius: 10px;
+    outline-color: lawngreen;
+    outline-width: 1px;
+    color: red;
+}
+
+.button-box {
+    width: max-content;
+    height : max-content;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #4b48472d;
+    border-radius: 10em;
+}
+
+.toggle-btn {
+    padding: 1em 1em;
+    cursor: pointer;
+    background: transparent;
+    font-size : 1em;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #86E7DA, #7AB3E1);
+    border-radius: 10em;
+    transition: .5s;
+}
+
+.input-group {
+   top : 50px;
+    position: relative;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid ;
+    outline: none;
+    font-size : 1em;
+    background: transparent;
+}
+
+.forgotten_password
+{
+
+color : #333;
+
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top : 5vh;
+    background: linear-gradient(to right, #86E7DA, #7AB3E1);
+    border: 0;
+    outline: none;
+    font-size : 1em;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+    font-size : 1em;
+}
+
+
+
+#login {
+   display: block;
+   height : max-content;
+}
+
+#register {
+   display : none;
+   height : max-content;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    padding-top: 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+.body_i {
+    background: #7CF2E2;
+    color: #333;
+    font: tahoma;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    padding-top: 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+
+@media screen and (max-width: 1100px)
+{   
+
+    html
+    {
+
+        height : 100%;
+
+    }
+    #checkBoxTxt
+    {
+
+        font-size: 22px;
+
+    }
+    
+    .info
+    {
+        margin : 0 auto;
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    
+
+    .main
+    {
+
+
+        height : 100%;
+        width : 100%;
+
+    }
+    .content
+    {
+
+
+        height : 110%;
+        width : 100%;
+
+    }
+
+    .form-box
+    {
+        top : 0px;
+        width : 100%;
+        margin :  6% auto;
+        height :max-content;
+        
+
+    }
+
+    .input-field {
+        width: 100%;
+        padding: 10px 0;
+        margin: 5px;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 2px solid #999;
+        outline: none;
+        font-size : 22px;
+        background: transparent;
+    }
+
+    .input-group
+    {
+        top : 0;
+        width: 80%;
+        height : max-content;
+        margin : 6% auto;
+
+    }
+    .submit-btn 
+    {
+        margin-top : 5vh;
+        font-size : 22px;
+        border-radius: 10em;
+    }
+
+    .check-box
+    {
+
+        width : 22px;
+        height : 22px;
+
+    }
+    #checkBoxTxt
+    {
+    
+    color: #777;   
+    bottom: 68px;
+
+   
+    }
+   
+     .button-box
+    {
+
+        font-size: 22px;
+        
+    }
+
+
+
+
+
+}

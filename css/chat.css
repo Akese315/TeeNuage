@@ -1,0 +1,211 @@
+
+
+.send_bar
+{
+    position: relative;
+    border: 6px solid #C3E5E1;
+    border-radius: 20px;
+    width: fit-content;
+    height: 10vh;
+    width : 80%;
+    font-size: 3em;
+    outline: none;
+    text-align: center;
+    color: grey;
+    opacity: 0.75;
+   
+}
+
+#chat_area
+{
+
+overflow : scroll;
+overflow-x: hidden;
+height : 65%;
+position : relative;
+top : 200px;
+
+
+
+}
+
+.chat_form
+{
+
+    position : relative;
+    top : 200px;
+text-align: center;
+box-shadow: white;
+
+
+}
+.main
+{
+
+
+height : 100%;
+
+}
+
+body 
+{
+
+background-color:  #C3E5E1 ;
+
+
+}
+.message .content 
+{
+
+border-radius : 1em;
+background-color : #ffff;
+width : max-content;
+max-width: 100%;
+height : max-content;
+padding: 0.5em 0.5em;
+font-size: 1.5em;
+color : #36403F;
+
+
+}
+
+
+
+.Mymessage .content 
+{
+
+    float : right;
+    border-radius : 1em;
+    background-color : #ffff;
+    width : max-content;
+    max-width: 100%;
+    height : max-content;
+    padding: 0.5em 0.5em;
+    font-size: 1.5em;
+    color : #36403F;
+   
+
+
+}
+
+.Mymessage .pseudo
+{
+
+float : right;
+color : #3071BD;
+font-size: 1.5em;
+padding-left : 1vw;
+
+}
+
+
+.message .pseudo 
+{
+
+
+color : #3071BD;
+padding-left : 1vw;
+font-size: 1.5em;
+
+
+
+}
+
+.Mymessage
+{
+
+margin-top : 25px;
+margin-right : 25px;
+float : right;
+width : max-content;
+margin-left:100%;
+max-width: 50%;
+
+
+}
+
+.Mymessage .heure
+{
+    
+    width : max-content;
+    float : right;
+    font-size: small;
+    margin-left : 100%;
+
+}
+
+.message .heure
+{
+    width : max-content;
+    font-size: small;
+
+}
+
+.message
+{
+    max-width: 50%;
+    margin-left : 1em;
+    width : 100%;
+
+}
+
+#send_button
+{
+
+width :10vw;
+border-radius :20px;
+border : solid 1px  #C3E5E1;
+background-color : rgb(240,248,247);
+height : 9vh;
+cursor: pointer;
+
+outline : none;
+}
+
+@media screen and (max-width: 1515px)
+{
+
+   
+
+    #chat_area
+    {
+
+        overflow : scroll;
+        overflow-x: hidden;
+        height : 78%;
+        position : relative;
+        top : 200px;
+
+
+
+    }
+
+
+    .Mymessage .content
+    {
+
+        font-size: 2.5em;
+
+    }
+    .message .content
+    {
+        margin-top : 1vh;
+        font-size: 2.5em;
+
+    }
+
+    .Mymessage .pseudo
+    {
+
+        font-size: 2em;
+        
+    }
+    .message .pseudo
+    {
+
+        font-size: 2em;
+        
+    }
+
+
+}

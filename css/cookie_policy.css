@@ -1,0 +1,74 @@
+.main {
+	margin : 0 auto;
+    margin-top : 150px;
+    margin-bottom : 150px;
+	width: 60% ;
+	font-family: "roboto";
+}
+
+
+.sous_titre{
+	position : relative;
+
+    float :left;
+    background: #0086B1 ;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	font-size : 30px;
+	font-weight: 500;
+
+
+}
+.titre
+
+{
+    background: #0086B1;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	font-size : 60px;
+	text-align: center;
+	margin-bottom: 1vh;
+
+
+}
+
+.soussous_titre{
+
+	position : relative;
+
+    float :left;
+   
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	font-size : 3em;
+}
+
+@media screen and (max-width: 1515px)
+{
+
+    .main {
+        margin : 0 1em;
+        width: 100% ;
+       
+    }
+
+    .titre
+    {
+
+    font-size : 4em;
+    font-weight : 500;
+
+    }
+
+    .sous_titre
+    {
+    
+    font-size : 3em;
+    font-weight : 500;
+
+
+    }
+
+
+}

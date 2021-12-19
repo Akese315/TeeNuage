@@ -1,0 +1,272 @@
+.main
+{
+
+position : relative;
+top : 200px;
+max-width : 100%;
+
+}
+
+.sommaire
+{
+
+display : grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 1fr ;
+
+
+}
+
+
+
+.matiere
+{
+border-radius: 28px;
+width : 50%;
+height : max-content;
+padding : 10px;
+margin : 28px auto;
+text-align: center;
+text-decoration: none;
+font-size: 40px;
+justify-content: stretch;
+}
+.matiere a
+{
+
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 1100px)
+{   
+
+
+    .sommaire
+    {
+
+        grid-template-columns: 50% 50%; 
+
+
+    }
+
+    .matiere
+    {
+        word-break: break-word;
+        font-size: 25px;
+        grid-template-rows: 1fr 1fr ;
+        
+    }
+
+}
+#francais
+{
+
+color :#4153A0;
+border : solid 8px #4153A0;
+
+}
+
+#francais a
+{
+
+    color :#4153A0;
+    
+}
+#francais:hover
+{
+background-color: #97acff;
+}
+
+#maths a
+{
+
+    color : #F91015;
+
+}
+
+#maths
+{
+
+    color : #F91015;
+    border : solid 8px #F91015;
+    
+}
+#maths:hover
+{
+background-color: #FFB3A3;
+}
+
+#histoire a
+{
+
+    color : #F6DF90;
+
+}
+
+#histoire
+{
+    border : solid 8px #F6DF90;
+    color : #F6DF90;
+
+
+}
+#histoire:hover
+{
+background-color: #FFEFC1;
+}
+
+#svt
+{
+    border : solid 8px #0BB518;
+    color : #0BB518;
+
+}
+
+#svt a
+{
+
+    color : #0BB518;
+
+}
+#svt:hover
+{
+background-color: #8DDD71;
+}
+
+#sp a
+{
+
+    color :#BDBDBD ;
+
+}
+
+#sp
+{
+    border : solid 8px #BDBDBD;
+    color :#BDBDBD ;
+    
+
+}
+
+#sp:hover
+{
+background-color: #c0dfdb;
+}
+
+#geographie a
+{
+
+color :#D0ED2B;
+
+}
+
+#geographie
+{
+    border : solid 8px #D0ED2B;
+    color :#D0ED2B;
+
+}
+#geographie:hover
+{
+background-color: #F1FF7E;
+}
+
+#espagnol a 
+{
+
+    color :#FAAC03 ;
+
+
+}
+
+
+#espagnol
+{
+    border : solid 8px #FAAC03;
+    color :#FAAC03 ;
+
+}
+#espagnol:hover
+{
+background-color: #FFD251;
+}
+
+#anglais a
+{
+
+    color :rgb(66, 218, 238);
+
+}
+
+#anglais
+{
+    border : solid 8px rgb(66, 218, 238);
+    color :rgb(66, 218, 238);
+   
+
+}
+#anglais:hover
+{
+background-color:#A3CDFF ;
+}
+#si
+{
+    border : solid 8px #5D5D5D;
+    color :#5D5D5D;
+}
+
+#si a
+{
+
+
+color : #5D5D5D;
+
+
+}
+#SES a
+{
+
+ color :rgb(66, 218, 238);
+
+}
+
+#SES
+{
+    border : solid 8px rgb(66, 218, 238);
+    color :rgb(66, 218, 238);
+
+
+}
+
+
+#SES:hover
+{
+background-color:#A3CDFF ;
+}
+#japonais 
+{
+
+    border : solid 8px #c20027;
+    
+}
+
+#japonais a
+{
+color : #c20027;
+
+}
+#japonais:hover
+{
+background-color : #ff6669;
+
+}
+
+#japonais img
+{
+
+width : 35%;
+height : 35%;
+border : solid 3px #c20027;
+}
+

@@ -1,0 +1,37 @@
+.main_content
+{
+position : relative;
+top : 100vh;
+width : 100%;
+margin-top: 25px;
+position : static;
+padding : 25px 0; 
+display : grid;
+grid-template-columns: 3fr;
+background-color: #7CF2E2;
+color : #fff;
+font-size: 25px;
+text-align: center;
+font-family: "Roboto", 'Kumbh Sans',"Noto Sans";
+}
+
+.follow a
+{
+
+    color : #fff;
+
+}
+
+.num_tel a
+{
+
+    color : #fff;
+
+}
+
+.cookie-policy a
+{
+
+    color : #fff;
+
+}

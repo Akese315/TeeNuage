@@ -1,0 +1,111 @@
+.main
+{
+position: relative;
+background-color: white;
+padding-top: 150px;
+width :60%;
+box-shadow: 0 0 2rem rgb(0 0 0 / 15%);
+margin : 0 auto ;
+
+}
+
+.Nom_matiere
+{
+
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.main ul
+{
+list-style-type: none;
+padding: 0;
+
+}
+
+.sommaire
+{
+
+
+text-align : center;
+font-size: 30px;
+
+}
+.sommaire ul li
+{
+
+    font-weight: bold;
+    width : 40%;
+    display : flex;
+    margin :  20px auto;
+     padding : 20px;
+    border-radius : 50px;
+}
+
+.sommaire ul li a
+{
+
+    margin : 0 auto;
+
+}
+
+
+
+
+.barre_limite 
+{
+    
+    background-color:rgb(197, 0, 0) ;
+    border : solid rgb(197, 0, 0) 2px;
+    border-radius: 5px;
+    width : 100%; 
+   
+
+}
+
+.text_limite
+{
+
+color : rgb(197, 0, 0);
+
+}
+.classe 
+{
+
+margin : 40px 0;
+font-size : 30px;
+color :grey;
+
+}
+
+
+
+@media screen and (max-width: 1100px)
+{   
+
+    .main
+    {
+        width: 100%;
+        padding-top: 150px;
+        box-shadow: inherit;
+
+    }
+
+    .Nom_matière
+    {
+
+    font-size: 40px;
+
+    }
+
+
+    .sommaire
+    {
+
+
+    font-size: 20px;
+
+    }
+
+}

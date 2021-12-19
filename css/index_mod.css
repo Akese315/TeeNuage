@@ -1,0 +1,88 @@
+.BamEtRachel
+{
+
+
+width :150%;
+height : 150%;
+
+
+
+}
+.erlenmeyer
+{
+
+   
+    display : none;
+    width :150%;
+    height : 150%;
+
+}
+
+.bam_learning
+{
+    justify-content: center;
+    display : none;
+    width :70%;
+    height : 70%;
+    position : relative;
+    left : 100px;
+    top : 100px;
+
+}
+.resume
+{
+    color : rgb(43, 42, 42);
+    position : relative;    
+    font-size: 80px;
+    opacity : 0.5;
+    margin : 40px;
+    width : 10em;
+}
+
+.presentation
+{
+
+position : fixed;
+z-index: 1;
+top : 200px;
+width : 100%;
+display : inline-flex;
+flex-wrap : wrap;
+}
+
+ul
+{
+
+ list-style-type: none;
+
+}
+
+
+
+.body
+{
+
+background-color: #FCFCFC;
+
+}
+.images
+{
+    position : relative;
+    left :-180px;
+    margin : auto;
+    max-width : auto;
+
+}
+
+.experimentez
+{
+
+opacity : 0.25;
+
+}
+.revisez
+{
+ 
+    opacity : 0.25;
+
+}

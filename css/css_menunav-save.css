@@ -1,0 +1,193 @@
+*
+{
+
+margin : 0;
+padding : 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+font-family: "Arial Black", "Roboto", 'Kumbh Sans',"Noto Sans";
+font-weight: 800;
+
+}
+header{
+width : 100%;
+position : fixed;
+top : 0;
+z-index: 5;
+height :160px;
+
+}
+
+#logoProfil
+{
+
+width :100%;
+height :100%;
+border-radius: 10em;
+
+}
+
+
+#logElement
+{
+
+    display : none;
+
+}
+#setpseudoOnBalise
+{
+
+width:max-content;
+
+}
+
+nav
+{
+
+background-color : #7CF2E2;
+height : 160px;
+width : 100%;
+
+border-bottom : 2px solid #7CF2E2;
+box-shadow: 0px 0px 10px rgb(102, 102, 102);
+
+}
+nav ul
+{
+    float: left;
+    width:max-content;
+    display : block;
+
+}
+
+nav ul li
+{
+display : inline-block;
+line-height: 80px;
+margin : 20px 20px;
+padding:0;
+vertical-align: middle;
+
+
+
+
+}
+
+
+#subnav
+{
+position : absolute;
+z-index: 999;
+top :100px;
+display : none;
+width : 307px;
+height : 580px;
+background-color: #7CF2E2;
+padding : 0px;
+margin : 0px;
+border-radius: 25px;
+}
+#subnav li
+{
+
+margin : inherit;
+padding : inherit;
+margin : 0 30px ;
+text-align: center;
+
+
+}
+#subnav li a
+{
+    text-align: center;
+}
+
+
+
+
+
+nav ul li a
+{
+
+    color : #fff;
+    
+    font-size : 40px;
+    padding : 0px;
+    border-radius :50px;
+    width: max-content;
+   
+
+
+}
+hr
+{
+
+	height : 6px;
+	width : 0px;
+    background-color : #fff;
+    display : none;
+    border : 2px solid #fff ;
+	border-radius : 25px;	
+	margin : auto;
+	padding : 0;
+	
+	
+    
+}
+
+.TeeNuage 
+{
+    font-size : 80px;
+    color : #fff;
+    margin :  auto 40px;
+   float : left;
+    
+
+}
+.burger
+{
+
+display : none;
+
+
+}
+
+.burger div
+{
+
+width : 80px;
+height: 15px;
+margin : 12px;
+background-color : #fff;
+border-radius :25px;
+
+}
+nav ul li, .TeeNuage
+{
+
+    display : inline-block;
+}
+
+::-webkit-scrollbar{
+
+    background-color: #fff;
+    width : 12px;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color:  #fff;
+    width : 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+
+    background-color:  #7CF2E2;
+    width : 5px;
+    border-radius :25px;
+   
+    
+}
+

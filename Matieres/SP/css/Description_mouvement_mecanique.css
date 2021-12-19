@@ -1,0 +1,206 @@
+
+.main
+{
+
+    position : relative;
+    margin-top: 150px;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 15%);
+    width :55%;
+    margin : 0 auto ;
+
+
+}
+
+
+.h1
+{
+
+
+
+font-size: 30px;
+
+
+}
+
+.index li
+{
+    font-size : 30px;
+    margin : 20px;
+    color : #6E6E6E;
+}
+.index li a{
+    font-size : 30px;
+    color : #6E6E6E;
+    text-decoration: underline;
+}
+.index
+{
+   
+    margin-top : 70px;
+    margin-left : 30px;
+    
+}
+#index
+{
+
+    font-size: 40px;
+    
+    background: linear-gradient(to right top,#c0dfdb, rgb(66, 218, 238)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+.titre
+{
+    position : relative;
+    margin-top: 150px;
+   
+    text-align: center;
+    background: linear-gradient(to right top,#c0dfdb, rgb(66, 218, 238)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+font-size : 60px;
+
+}
+.sous_titre
+{
+    margin-left :25px;
+    margin-top : 25px;
+    margin-bottom : 25px;
+    background: linear-gradient(to right top,#c0dfdb, rgb(66, 218, 238)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+font-size : 60px
+
+
+}
+
+
+.content
+{
+
+margin-top : 50px;
+margin-bottom : 50px;
+margin-top : 50px;
+margin-bottom : 50px;
+font-size: 30px;
+margin-top : 70px;
+line-height: 1.25em;
+color : #6E6E6E;
+margin-left : 30px;
+margin-right :30px;
+
+}
+.surlignage
+{
+
+text-decoration: underline;
+color :#7CF2E2;
+
+}
+.red_text
+{
+
+
+    color : #7CF2E2;
+
+}
+
+.content img{
+
+   border-left: solid 7px #7CF2E2;
+    
+    width : 60%;
+    height : 60%;   
+    max-width: 400px;
+    max-height: 360px;
+}
+
+
+.content span .less_or_equal
+{
+
+    content: "\2264";
+
+
+}
+
+.content span .greater_or_equal
+{
+
+    content: "\2265";
+
+}
+.fleche
+{
+
+    
+    color : #7CF2E2;
+
+}
+
+.list li::before
+{
+
+     content: "•"; 
+     color:#7CF2E2;
+     font-size: 30px;
+     line-height: 30px;
+    
+
+}
+#img1
+{
+
+    width : 70%;
+    max-width : 200%;
+    max-height : 200%;
+    height : 70%;
+
+}
+#img2
+{
+
+    width : 70%;
+    max-width : 200%;
+    max-height : 200%;
+    height : 70%;
+
+}
+
+@media screen and (max-width: 1515px)
+{
+    
+    .main
+{
+    position : relative;
+    margin-top: 150px;
+    width :100%;
+    box-shadow: inherit;
+}
+
+#img1
+{
+
+    width : 100%;
+    max-width : 200%;
+    max-height : 200%;
+    height : 100%;
+
+}
+#img2
+{
+
+    width : 100%;
+    max-width : 200%;
+    max-height : 200%;
+    height : 100%;
+
+}
+}
+

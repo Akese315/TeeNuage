@@ -1,0 +1,59 @@
+
+.main
+{
+
+
+ 
+margin-top: 200px;
+height: max-content;
+
+}
+
+
+.sommaire
+{
+
+
+
+font-size: 30px;
+
+
+}
+
+
+
+
+.liens
+{
+    
+margin-left: 50px;
+margin-top : 50px;
+
+font-size : 30px;
+color :grey;
+background: linear-gradient(to right top,#F91015, #FFC12B
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.titre
+{
+    
+text-align: center;
+    background: linear-gradient(to right top,#F91015, #FFC12B
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+font-size : 60px;
+
+}
+
+.content
+{
+
+
+margin-top : 50px;
+margin-bottom : 50px;
+
+}
