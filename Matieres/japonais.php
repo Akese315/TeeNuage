@@ -36,6 +36,7 @@ include '../menu_nav.php';
     </ul>    
     <ul><i class="fas fa-book"></i><p class="categories">Vocabulaire</p>      
         <li><a href="Japonais/Date.php"  class="sous-liste">L'heure en japonais</a></li>
+        <li><a href="Japonais/Tadoushi-Jidoushi.php"  class="sous-liste">Les verbes transitifs(他動詞) et intransitifs(自動詞)</a></li>
     </ul> 
 
 </ul>
